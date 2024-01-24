@@ -90,7 +90,7 @@ int main()
     double salary = 0.0;
     char nextEntry = 'y';
 
-    ofstream outFile("C:\\develop\\test\\build\\modul_20_task_1\\salary.txt", ios::app);
+    ofstream outFile("salary.txt", ios::app);
     if (!outFile.is_open())
     {
         cerr << "Error, file is not open";
